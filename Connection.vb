@@ -13,9 +13,9 @@ Public Class Connection
 
 	Public Overrides ReadOnly Property ProviderResource As System.Type = GetType(ProviderResource)
 
-    Public Overrides ReadOnly Property ClientName As String = "MySql.Data.MySqlClient"
+	Public Overrides ReadOnly Property ClientName As String = "System.Data.Odbc"
 
-    Public Overrides ReadOnly Property Statement As System.Type = GetType(Statement)
+	Public Overrides ReadOnly Property Statement As System.Type = GetType(Statement)
 
     Public Overrides Sub Open(dsn As String)
 		Me._provider = New OdbcConnection(dsn)

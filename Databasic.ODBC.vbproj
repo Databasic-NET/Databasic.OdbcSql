@@ -88,6 +88,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="content\App.config.install.xdt" />
+    <None Include="content\App.config.uninstall.xdt" />
+    <None Include="content\Web.config.install.xdt" />
+    <None Include="content\Web.config.uninstall.xdt" />
     <None Include="Databasic.ODBC.nuspec" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>

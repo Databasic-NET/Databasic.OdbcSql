@@ -1,7 +1,9 @@
 ﻿Public Class ProviderResource
     Inherits Databasic.ProviderResource
 
-    Public Overrides Function GetTableColumns(table As String, connection As Databasic.Connection) As Dictionary(Of String, Boolean)
+
+
+	Public Overrides Function GetTableColumns(table As String, connection As Databasic.Connection) As Dictionary(Of String, Boolean)
         Dim result As New Dictionary(Of String, Boolean)
         Dim rawData As Dictionary(Of String, String) = Databasic.Statement.Prepare("
 				SELECT 

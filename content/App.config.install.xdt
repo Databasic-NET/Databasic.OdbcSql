@@ -3,7 +3,7 @@
 	<connectionStrings xdt:Transform="InsertIfMissing">
 		<clear xdt:Transform="InsertIfMissing" />
 		<add
-		  name="Databasic.Example.ODBC"
+		  name="Databasic.Example.OdbcSql"
 		  connectionString="Driver={ODBC_DRIVER_NAME};Server=SERVER_HOST;UID=USER_NAME;PWD=PASSWORD;Database=DATABASE"
 		  providerName="System.Data.Odbc"
 		  xdt:Transform="InsertIfMissing"

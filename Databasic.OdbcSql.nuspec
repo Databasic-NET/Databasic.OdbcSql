@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata minClientVersion="2.6">
-    <id>Databasic.ODBC</id>
-    <version>1.2.0.0</version>
+    <id>Databasic.OdbcSql</id>
+    <version>1.2.4.0</version>
     <title>Databasic - ODBC Package</title>
     <authors>Tom Flidr</authors>
     <owners>Tom Flidr</owners>

@@ -8,13 +8,13 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Databasic.ODBC")>
+<Assembly: AssemblyTitle("Databasic.OdbcSql")>
 <Assembly: AssemblyDescription("Databasic - C#/VB.NET database utility
  - focusing on queries primarily based on pure SQL commands, no linq transations
  - arranging data into primitive types, typed active record classes, collections and more
  - allowing to run any nonselect queries")>
 <Assembly: AssemblyCompany("Tom Flidr")>
-<Assembly: AssemblyProduct("Databasic.ODBC")>
+<Assembly: AssemblyProduct("Databasic.OdbcSql")>
 <Assembly: AssemblyCopyright("Copyright ©  2017")>
 <Assembly: AssemblyTrademark("Tom Flidr")>
 
@@ -34,5 +34,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.2.0.0")>
-<Assembly: AssemblyFileVersion("1.2.0.0")>
+<Assembly: AssemblyVersion("1.2.4.0")>
+<Assembly: AssemblyFileVersion("1.2.4.0")>

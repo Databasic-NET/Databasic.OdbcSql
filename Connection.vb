@@ -24,9 +24,9 @@ Public Class Connection
 	End Sub
 
 	Protected Shared Sub errorHandler(sender As Object, args As OdbcInfoMessageEventArgs)
-		Dim sqlErrors As Databasic.SqlErrorsCollection = New SqlErrorsCollection()
+		Dim sqlErrors As SqlErrorsCollection = New SqlErrorsCollection()
 		For index = 0 To args.Errors.Count - 1
-			sqlErrors.Add(New Databasic.MySql.SqlError(args.Errors(index)))
+			sqlErrors.Add(New Databasic.OdbcSql.SqlError(args.Errors(index)))
 		Next
 		Databasic.Events.RaiseError(sqlErrors)
 	End Sub

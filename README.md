@@ -11,5 +11,5 @@
 
 ## Instalation
 ```nuget
-PM> Install-Package Databasic.ODBC
+PM> Install-Package Databasic.OdbcSql
 ```

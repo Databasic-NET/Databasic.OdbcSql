@@ -2,7 +2,7 @@
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
 	<connectionStrings>
 		<add
-		  name="Databasic.Example.ODBC"
+		  name="Databasic.Example.OdbcSql"
 		  connectionString="Driver={ODBC_DRIVER_NAME};Server=SERVER_HOST;UID=USER_NAME;PWD=PASSWORD;Database=DATABASE"
 		  providerName="System.Data.Odbc"
 		  xdt:Transform="Remove"

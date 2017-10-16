@@ -6,12 +6,12 @@ Public Class SqlError
 	Public Property Source As String
 	Public Property SQLState As String
 
-	Public Sub New(mySqlError As System.Data.Odbc.OdbcError)
-		Me.Message = mySqlError.Message
-		Me.Code = mySqlError.NativeError
+	Public Sub New(odbcSqlError As System.Data.Odbc.OdbcError)
+		Me.Message = odbcSqlError.Message
+		Me.Code = odbcSqlError.NativeError
 
-		Me.Source = mySqlError.Source
-		Me.SQLState = mySqlError.SQLState
+		Me.Source = odbcSqlError.Source
+		Me.SQLState = odbcSqlError.SQLState
 	End Sub
 
 End Class
